@@ -34,11 +34,11 @@ body {
 }
 .display-5 {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 2.24rem;
 }
 .display-7 {
   font-family: 'Noto Sans', sans-serif;
@@ -70,9 +70,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1077,38 +1077,30 @@ section.lazy-placeholder:after {
 .cid-qTkA127IK8 {
   background-image: url("../../../assets/images/background4.jpg");
 }
-.cid-ruMLUn3JQu {
+.cid-segurXji8l {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/mbr-1920x1276.jpg");
 }
-.cid-ruMLUn3JQu .media-content {
-  word-wrap: break-word;
-}
-.cid-ruMLUn3JQu .form-group {
-  padding: 0.5rem;
-}
-.cid-ruMLUn3JQu .form-control {
-  text-align: center;
-}
-.cid-ruMLUn3JQu .mbr-figure {
-  padding-bottom: 2rem;
+.cid-segurXji8l .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
 }
 @media (min-width: 992px) {
-  .cid-ruMLUn3JQu .mbr-figure {
+  .cid-segurXji8l .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
 }
-@media (max-width: 992px) {
-  .cid-ruMLUn3JQu .mbr-text {
+@media (max-width: 991px) {
+  .cid-segurXji8l .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-segurXji8l .mbr-text {
     text-align: center;
-  }
-  .cid-ruMLUn3JQu .form-inline {
-    justify-content: center;
-    -webkit-justify-content: center;
-  }
-}
-@media (max-width: 768px) {
-  .cid-ruMLUn3JQu .form-control {
-    font-size: .85rem;
   }
 }
 .cid-ruMLUFVhjt {
